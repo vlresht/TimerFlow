@@ -1,0 +1,83 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #26262C;
+    color: #E8EDDF;
+}
+
+* {
+    margin: 0;
+}
+
+*::after, *::before {
+    box-sizing: border-box;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    width: 350px;
+    height: 350px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.countdown {
+    font-size: 40px;
+    margin-top: 15px;
+    letter-spacing: 4px;
+}
+
+.describtion {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.tutorial {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.countdown-input {
+    margin-top: 10px;
+    width: 230px;
+    height: 33px;
+    font-size: 20px;
+    padding-left: 8px;
+    border: 3px solid #6C63FF;
+    border-radius: 5px;
+    outline: none;
+}
+
+.countdown-button {
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 5px;
+    height: 40px;
+    width: 40px;
+    padding: 2.5px 10px;
+    font-size: 20px;
+    border: 3px solid #6C63FF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.25s;
+    outline: none;
+}
+
+.countdown-button:hover {
+    background-color: #6C63FF;
+    color: #E8EDDF;
+    border: 3px solid #E8EDDF;
+    transition: 0.25s;
+}
