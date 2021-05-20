@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const countdownElement = document.querySelector("#countdown");
-    const startButton = document.querySelector("#timer-start");
+    const startButton = document.querySelector("#start-button");
     
     function startTimer() {
-        let time = document.querySelector("#time-input").value * 60;
+        let time = document.querySelector("#work-time-input").value * 60;
         setInterval(function() {
             if (time <= 0) {
                 clearInterval(time = 0);
